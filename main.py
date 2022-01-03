@@ -137,7 +137,7 @@ def save_data():
             finally:
                 website_entry.delete(0, tkinter.END)
                 email_username_entry.delete(0, tkinter.END)
-                email_username_entry.insert(0,"aviladavilam@gmail.com")
+                email_username_entry.insert(0,"email@gmail.com")
                 password_entry.delete(0, tkinter.END)
 def remove_data():
     global key
@@ -182,7 +182,7 @@ email_username_label.grid(row=2,column=0)
 
 email_username_entry = tkinter.Entry(width=58)
 email_username_entry.grid(row=2,column=1,columnspan=2,sticky="W")
-email_username_entry.insert(0,"aviladavilam@gmail.com")
+email_username_entry.insert(0,"email@gmail.com")
 
 password_label = tkinter.Label(text="Password:")
 password_label.grid(row=3,column=0)
